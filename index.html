@@ -1,0 +1,964 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>MikuHshop</title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=hover1.0">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="grid.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css" integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    </head>
+    <body>
+        <div style="z-index: 2;" class="header">
+            <div class="header1"> 
+                <div > <img style="margin-left: 10px;" height="60px" width="60px" src="MikuH.png.png" alt="MikuH"></div>
+                <div class="hover1 pointer" style="margin-top: 20px;">Trang chủ</div>
+                <div class="hover1 pointer" style="margin-top: 20px;">Tin tức - Sự kiện</div>
+                <div style="z-index: 5;" class=" pointer product">
+                    <p>Sản phẩm</p>
+                    <i class="fa-solid fa-caret-down"></i>
+                    <div class="notify">
+
+                        <h3 class="tin" >Sản phẩm mới</h3>
+                            <div class="notify1">
+                            <img width="50" height="50" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                        
+                        <div class="thongbao">
+                            <p class="sale"> Figure hot</p>
+                            <p> Figure Miku thánh nữ</p>
+                           
+                        </div>
+                    </div>
+                        <div class="notify1">
+                            <img width="50" height="50" src="https://th.bing.com/th/id/OIP.8vnOFqaOCpeBoTo2jBDXxgHaLG?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Miku">
+                        
+                        <div class="thongbao">
+                            <p class="sale"> Figure hot</p>
+                            <p> Figure Miku học sinh 1</p>
+                           
+                        </div>
+                        
+                    </div>
+                    <div class="notify1">
+                        <img width="50" height="50" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                    
+                    <div class="thongbao">
+                        <p class="sale"> Figure hot</p>
+                        <p> Figure Miku devil</p>
+                       
+                    </div>
+                    
+                </div>
+                        
+        
+                </div>
+                </div>
+                <div class="hover1 pointer" style="margin-top: 20px;">Bảo hành</div>
+                <div class="hover1 pointer" style="margin-top: 20px;">Liên hệ</div>
+            </div>
+
+            <div class="pointer search-input">
+            
+                    <div class="container-4">
+                        <input type="search" id="search" placeholder="Search..." />
+                        <button class="icon"><i class="fa fa-search"></i></button>
+                    </div>
+            </div>
+            <div class="header2">
+               
+   
+                <div class=" pointer login">
+                    <div> <svg data-type="monochrome" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 30 30" class="img-login"><g fill="none" stroke="currentColor"><circle cx="15" cy="15" r="14.4"></circle><circle cx="15" cy="12" r="4.5"></circle><path d="M25.442 24.63c-1.453-4.536-5.579-7.807-10.442-7.807-4.932 0-9.106 3.365-10.502 8"></path></g></svg></div>
+                    <label for="login">Đăng nhập</label>
+                    <input style="display: none;" type="checkbox" name="" class="Dangnhap" id="login">
+
+
+                    <div  class="modal">
+                        <label class="layout" for="login"></label>
+                        <div  class="modal-form-1">
+                            <div class="header-modal-form">
+                    
+                                <div style="color: #333;" class="register1">Đăng nhập</div>
+                                <input style="display: none;" type="checkbox" name="" class="Dangky1" id="register1">
+                                <div class="login1"><label for="register1">Đăng ký</label></div>
+                            </div>
+                            <div class="container1-modal-form">
+                                <input class="input" type="text" placeholder="Số điện thoại">
+                                <input class="input" type="text" placeholder="Mật khẩu">
+                    
+                            </div>
+                            <div class="container2-modal-form">
+                                <button class="back"><button class="back"><label for="login">Trở lại</label></button>
+                               <a href="http://127.0.0.1:5500/MyWeb/index.html"><button class="continue">Tiếp theo</button></a>
+                            </div>
+                            <div class="container3-modal-form">
+                                
+                                <p class="quen" style="color: #333;">Quên mật khẩu ?</p>
+                            </div>
+                            <div class="container4-modal-form">
+                                <div style="color: #333;" class="gach1">__________________</div>
+                                <div style="color: #333;" class="hoac"> Hoặc </div>
+                                <div style="color: #333;" class="gac2">__________________</div>
+                            </div>
+                            <div class="container5-modal-form">
+                                <div class="facebook">
+                                    <div class="icon-face"><i class=" fa-brands fa-facebook"></i></div>
+                                    
+                                    <p>Facebook</p>
+                                </div>
+                                <div style="color: #333;" class="google">
+                                    <div class="icon-face"><i class="fa-brands fa-google"></i></div>
+                                
+                                <p >Google</p>
+                            </div>
+                            </div>
+                        </div>
+                    </div>
+
+
+                   
+                </div>
+                <div class=" pointer register">
+                    <input style="display: none;" type="checkbox" name="" class="Dangky" id="register">
+                    <i class="fa-solid fa-address-card"></i>
+                   <label for="register">Đăng ký</label>
+
+                   <div class="modal1">
+                    <label class="layout" for="register"></label>
+                    <div class="modal-form">
+                        <div class="header-modal-form">
+            
+                            <div class="register1">Đăng ký</div>
+                            <div class="login1">Đăng nhập</div>
+                        </div>
+                        <form class="container1-modal-form form" id="form-1">
+                            <div class="form-group invalid">
+                                <label for="fullname" class="form-label">Tên đầy đủ</label>
+                                <input id="fullname" name="fullname" type="text" placeholder="VD: Tiến Hiền" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="email" class="form-label">Email</label>
+                                <input id="email" name="email" type="text" placeholder="VD: kurumilop8@gmail.com" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="password" class="form-label">Mật khẩu</label>
+                                <input id="password" name="password" type="password" placeholder="Nhập mật khẩu" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                          
+                              <div class="form-group">
+                                <label for="password_confirmation" class="form-label">Nhập lại mật khẩu</label>
+                                <input id="password_confirmation" name="password_confirmation" placeholder="Nhập lại mật khẩu" type="password" class="form-control">
+                                <span class="form-message"></span>
+                              </div>
+                              
+            
+                        </form>
+                        <div class="container2-modal-form">
+                            <button class="back"><label for="register">Trở lại</label>
+                                <a href="http://127.0.0.1:5500/MyWeb/index.html"><button onclick="Notifications" class="continue">Tiếp theo</button></a>
+                        </div>
+                       
+                        <div class="container4-modal-form">
+                            <div style="color: #333;" class="gach1">__________________</div>
+                            <div style="color: #333;" class="hoac"> Hoặc </div>
+                            <div style="color: #333;" class="gach2">__________________</div>
+                        </div>
+                        <div class="container5-modal-form">
+                            <div class="facebook">
+                                <div class="icon-face"><i style="font-size: 20px;" class=" fa-brands fa-facebook"></i></div>
+                                
+                                <p>Facebook</p>
+                            </div>
+                            <div class="google">
+                                <div style="font-size: 20px;" class="icon-face"><i style="color: #333;" class="fa-brands fa-google"></i></div>
+                            
+                            <p style="color: #333;">Google</p>
+                        </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                </div>
+            </div>
+           
+            
+        </div>
+        <div class="Shop"> <img height="120px" width="300px" src="MikuH.png.png" alt="MikuH"></div>
+        <div style="display: flex;" class="grid wide">
+
+                <div style="margin-left: 20px;" class="row">
+                    <div style="margin-top: 70px;" class="col l-1">
+                            <div class="button">
+                                <div style="cursor: pointer;" class="tranform1">
+                                <i style="padding: 10px 5px 0 5px;" class="icon icon1 tranform color1 fa-brands fa-facebook"></i>
+                                <div class="Span1" >Facebook</div>
+                                </div>
+                                <div style="cursor: pointer;"  class="tranform2">
+                                    <i style="padding: 10px 5px 0 5px;"class="icon icon2 color2 fa-brands fa-google"></i>
+                                    <div class="Span2" >Google</div>
+                                </div>
+                                <div style="cursor: pointer;"  class="tranform3">
+                                    <i style="padding: 10px 5px 0 5px;"class="icon icon3 color3 fa-brands fa-instagram"></i>
+                                    <div class="Span3" >Instagram</div>
+                                </div>
+                                <div style="cursor: pointer;"  class="tranform4">
+                                    <i style="padding: 10px 5px 0 5px;"class="icon icon4 color4 fa-brands fa-twitter"></i>
+                                    <div class="Span4" >Twitter</div>
+                                </div>
+                                <div style="cursor: pointer;"  class="tranform5">
+                                    <i style="padding: 10px 5px 0 5px;"class="icon icon5 color5 fa-brands fa-github"></i>
+                                    <div class="Span5" >Github</div>
+                                </div>
+                                
+                            </div>
+                    </div>
+                    <div style="display: flex;" class="col l-6 l-o-2 c-12 quangcao">
+                        <div class="col l-1 chevron-left"> <i class="fa-solid fa-chevron-left"></i></div>
+                        <div class="adver">
+                        <div class="wrapper">
+                        <img class="advertisement" src="https://www.deco-crystal.com/wp-content/uploads/2021/11/thiet-ke-shop-nam-dep-crystaldesigntpl.jpg" alt="Quảng cáo">
+                        <img class="advertisement" src="https://tripler.vn/wp-content/uploads/2019/02/thoi-trang-unisex-la-gi-khong-gian-unisex-fashion-chat-tai-sai-gon-3.jpg" alt="Quảng cáo">
+                        <img class="advertisement" src="https://gotrangtri.vn/wp-content/uploads/2020/07/thiet-ke-shop-quan-ao-nam-ke-don-sac.png" alt="Quảng cáo">
+                        <img class="advertisement" src="https://www.deco-crystal.com/wp-content/uploads/2021/11/mau-thiet-ke-shop-thoi-trang-nam-crystaldesigntpl.jpg" alt="Quảng cáo">
+                    </div>
+                </div>
+                <div class="col l-1 chevron-right"><i class="fa-solid fa-chevron-right"></i></div>
+                    </div>
+                </div>
+               
+            </div>
+            <div style="display: flex;" class="grid wide">
+            <div style="margin-top: 70px;" class="row">
+                <div style=" background-color: rgb(174, 208, 196);" class="nav col l-2">
+                    <h3 style="margin-left: 24px;" >Danh mục sản phẩm</h3>
+                    <ul>
+                      <hr>
+                     <li style="margin-left: 42px;" class="item5">Áo nam</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Quần nam</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Áo nữ</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Quần nữ</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Váy</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Phụ kiện thời trang</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Trang phục cosplay</li>
+                     <hr>
+                     <li style="margin-left: 42px;"  class="item5">Figure</li>
+                     <hr>
+                  </ul>
+                </div>
+                
+                <div class="Product col l-10 ">
+                     <div class="hot-search">
+                        <div class="col l-2"">
+                        <h2 class="Top">Top tìm kiếm</h2>
+                    </div>
+                        <div class="miku1 col l-2">
+                            <a style="text-decoration: none;" href="">
+                                <div>
+                                   
+                                    <img class="img-product" src="https://th.bing.com/th/id/OIP.8vnOFqaOCpeBoTo2jBDXxgHaLG?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Miku">
+                                    <div class="Buy">
+                                        <span class="add-cart">Thêm vào giỏ</span>
+                                        <span class="view">Xem nhanh</span>
+                                    </div>
+                                </div>
+                                
+                                <div class="product-info">
+                                <p class="name-product">Figure Miku học sinh 1</p>
+                                <div class="money">
+                                <p  class="origin-money">7.000.000đ</p>
+                                <p class="discount-money">3.500.000đ</p>
+                            </div>
+                            <div class="emoji">
+                                <i style="color: #333;" class="heart fa-solid fa-heart"></i>
+                                <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                    <span> <i class="star fa-regular fa-star"></i></span>
+                                    
+                                    <i class="star fa-regular fa-star"></i>
+                                    <i class="star fa-regular fa-star"></i>
+                                    <i class="star fa-regular fa-star"></i>
+                                </div>
+                                <p style="font-size: 18px;">70 đã bán</p>
+                                </div>
+                                <div class="like"><i class="fa-solid fa-check"></i>
+                                    <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                </div>
+                                <div class="discount">
+                                <h4 class="percent-number">50%</h4>
+                                <h4 class="percent-text">GIẢM</h4>
+                            </div>
+                            </div></a>
+                            </div>
+                          <div class="miku1 col l-2">
+                            <a style="text-decoration: none;" href="">
+                                <div>
+                                   
+                                    <img class="img-product" src="https://th.bing.com/th/id/OIP.7SIDgBN70hWOweAeN6lkkwHaKY?w=182&h=254&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Miku">
+                                    <div class="Buy">
+                                        <span class="add-cart">Thêm vào giỏ</span>
+                                        <span class="view">Xem nhanh</span>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                <p class="name-product">Figure Miku đồ ngủ 1</p>
+                                <div class="money">
+                                <p  class="origin-money">8.000.000đ</p>
+                                <p class="discount-money">4.000.000đ</p>
+                            </div>
+                            <div class="emoji">
+                                <i class="heart fa-solid fa-heart"></i>
+                                <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p style="font-size: 18px;">80 đã bán</p>
+                                </div>
+                                <div class="like"><i class="fa-solid fa-check"></i>
+                                    <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                </div>
+                                <div class="discount">
+                                <h4 class="percent-number">50%</h4>
+                                <h4 class="percent-text">GIẢM</h4>
+                            </div>
+                            </div></a>
+                            </div>
+                           <div class="miku1 col l-2">
+                            <a style="text-decoration: none;" href="">
+                                <div>
+                                   
+                                    <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                                    <div class="Buy">
+                                        <span class="add-cart">Thêm vào giỏ</span>
+                                        <span class="view">Xem nhanh</span>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                <p class="name-product">Figure Miku váy cưới</p>
+                                <div class="money">
+                                <p  class="origin-money">10.000.000đ</p>
+                                <p class="discount-money">5.000.000đ</p>
+                            </div>
+                            <div class="emoji">
+                                <i class="heart fa-solid fa-heart"></i>
+                                <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p style="font-size: 18px;">100 đã bán</p>
+                                </div>
+                                <div class="like"><i class="fa-solid fa-check"></i>
+                                    <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                </div>
+                                <div class="discount">
+                                <h4 class="percent-number">50%</h4>
+                                <h4 class="percent-text">GIẢM</h4>
+                            </div>
+                            </div></a>
+                            </div>
+                           <div class="miku1 col l-2">
+                            <a style="text-decoration: none;" href="">
+                                <div>
+                                   
+                                    <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                                    <div class="Buy">
+                                        <span class="add-cart">Thêm vào giỏ</span>
+                                        <span class="view">Xem nhanh</span>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                <p class="name-product">Figure Miku bóng đêm</p>
+                                <div class="money">
+                                <p  class="origin-money">10.000.000đ</p>
+                                <p class="discount-money">5.000.000đ</p>
+                            </div>
+                            <div class="emoji">
+                                <i class="heart fa-solid fa-heart"></i>
+                                <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p style="font-size: 18px;">100 đã bán</p>
+                                </div>
+                                <div class="like"><i class="fa-solid fa-check"></i>
+                                    <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                </div>
+                                <div class="discount">
+                                <h4 class="percent-number">50%</h4>
+                                <h4 class="percent-text">GIẢM</h4>
+                            </div>
+                            </div></a>
+                            </div>
+                     </div>
+                </div>
+               </div>
+            </div>
+            <div style="display: flex;" class="grid wide">
+                <div class="row">
+                    <div style="text-align: center;" class="col l-3"><h1 class="Promotion">Khuyến mãi đặc biệt</h1></div>
+                 
+                </div>
+            </div>
+
+            <div style="display: flex;" class="grid wide">
+            
+            <div style="margin-left: 120px;" class="row">
+                <div class="col l-1 chevron-left"> <i class="fa-solid fa-chevron-left"></i></div>
+                  <div class="miku1 col l-2">
+                    <a style="text-decoration: none;" href=""><div>
+                                   
+                        <img class="img-product" src="https://th.bing.com/th/id/OIP.8vnOFqaOCpeBoTo2jBDXxgHaLG?w=182&h=273&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="Miku">
+                        <div class="Buy">
+                            <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                            <span class="view">Xem nhanh</span>
+                        </div>
+                    </div>
+                        <div class="product-info">
+                        <p class="name-product">Figure Miku đồ ngủ 1</p>
+                        <div class="money">
+                        <p  class="origin-money">8.000.000đ</p>
+                        <p class="discount-money">4.000.000đ</p>
+                    </div>
+                    <div class="emoji">
+                        <i class="heart fa-solid fa-heart"></i>
+                        <div class="evaluate"><i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p style="font-size: 18px;">80 đã bán</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-check"></i>
+                            <h3 style="margin-left: 6px;">Yêu thích</h3>
+                        </div>
+                        <div class="discount">
+                        <h4 class="percent-number">50%</h4>
+                        <h4 class="percent-text">GIẢM</h4>
+                    </div>
+                    </div></a>
+                    </div>
+                   <div class="miku1 col l-2">
+                    <a style="text-decoration: none;" href="">
+                        <div>
+                                   
+                            <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                            <div class="Buy">
+                                <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                <span class="view">Xem nhanh</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                        <p class="name-product">Figure Miku váy cưới</p>
+                        <div class="money">
+                        <p  class="origin-money">10.000.000đ</p>
+                        <p class="discount-money">5.000.000đ</p>
+                    </div>
+                    <div class="emoji">
+                        <i class="heart fa-solid fa-heart"></i>
+                        <div class="evaluate"><i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p style="font-size: 18px;">100 đã bán</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-check"></i>
+                            <h3 style="margin-left: 6px;">Yêu thích</h3>
+                        </div>
+                        <div class="discount">
+                        <h4 class="percent-number">50%</h4>
+                        <h4 class="percent-text">GIẢM</h4>
+                    </div>
+                    </div></a>
+                    </div>
+                   <div class="miku1 col l-2">
+                    <a style="text-decoration: none;" href="">
+                        <div>
+                                   
+                            <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                            <div class="Buy">
+                                <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                <span class="view">Xem nhanh</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                        <p class="name-product">Figure Miku bóng đêm</p>
+                        <div class="money">
+                        <p  class="origin-money">10.000.000đ</p>
+                        <p class="discount-money">5.000.000đ</p>
+                    </div>
+                    <div class="emoji">
+                        <i class="heart fa-solid fa-heart"></i>
+                        <div class="evaluate"><i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p style="font-size: 18px;">100 đã bán</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-check"></i>
+                            <h3 style="margin-left: 6px;">Yêu thích</h3>
+                        </div>
+                        <div class="discount">
+                        <h4 class="percent-number">50%</h4>
+                        <h4 class="percent-text">GIẢM</h4>
+                    </div>
+                    </div></a>
+                    </div>
+                    <div class="miku1 col l-2">
+                        <a style="text-decoration: none;" href="">
+                            <div>
+                                   
+                                <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                                <div class="Buy">
+                                    <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                    <span class="view">Xem nhanh</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                            <p class="name-product">Figure Miku thánh nữ</p>
+                            <div class="money">
+                            <p  class="origin-money">10.000.000đ</p>
+                            <p class="discount-money">5.000.000đ</p>
+                        </div>
+                        <div class="emoji">
+                            <i class="heart fa-solid fa-heart"></i>
+                            <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p style="font-size: 18px;">100 đã bán</p>
+                            </div>
+                            <div class="like"><i class="fa-solid fa-check"></i>
+                                <h3 style="margin-left: 6px;">Yêu thích</h3>
+                             </div>
+                              <div class="discount">
+                             <h4 class="percent-number">50%</h4>
+                             <h4 class="percent-text">GIẢM</h4>
+                        </div>
+                        </div></a>
+                        </div>
+                            <div class="miku1 col l-2 ">
+                                <a style="text-decoration: none;" href="">
+                                    <div>
+                                   
+                                        <img class="img-product" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwZ5D8daqpLNhlkZ61kdzPo5ujc9TikWBoA&usqp=CAU" alt="Miku">
+                                        <div class="Buy">
+                                            <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                            <span class="view">Xem nhanh</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                    <p class="name-product">Figure Miku đồ bơi</p>
+                                    <div class="money">
+                                    <p  class="origin-money">10.000.000đ</p>
+                                    <p class="discount-money">5.000.000đ</p>
+                                </div>
+                                <div class="emoji">
+                                    <i class="heart fa-solid fa-heart"></i>
+                                    <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p style="font-size: 18px;">100 đã bán</p>
+                                    </div>
+                                    <div class="like"><i class="fa-solid fa-check"></i>
+                                        <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                    </div>
+                                    <div class="discount">
+                                    <h4 class="percent-number">50%</h4>
+                                    <h4 class="percent-text">GIẢM</h4>
+                                </div>
+                                </div></a>
+                                </div>
+                                <div class="col l-1 chevron-right"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+            </div>
+            <div style="display: flex;" class="grid wide">
+                <div  class="row">
+                    <div style="text-align: center;" class="col l-2"><h1 class="Hot-product">Bán chạy</h1></div>
+                </div>
+            </div>
+
+            <div style="display: flex;" class="grid wide">
+            
+            <div style="margin-left: 120px;" class="row">
+                <div class="col l-1 chevron-left"> <i class="fa-solid fa-chevron-left"></i></div>
+                <div class="miku1 col l-2">
+                    <a style="text-decoration: none;" href="">
+                        <div>
+                                   
+                            <img class="img-product" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwZ5D8daqpLNhlkZ61kdzPo5ujc9TikWBoA&usqp=CAU" alt="Miku">
+                            <div class="Buy">
+                                <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                <span class="view">Xem nhanh</span>
+                            </div>
+                        </div>
+                        <div class="product-info">
+                        <p class="name-product">Figure Miku đồ bơi</p>
+                        <div class="money">
+                        <p  class="origin-money">10.000.000đ</p>
+                        <p class="discount-money">5.000.000đ</p>
+                    </div>
+                    <div class="emoji">
+                        <i class="heart fa-solid fa-heart"></i>
+                        <div class="evaluate"><i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                            <i class="fa-regular fa-star"></i>
+                        </div>
+                        <p style="font-size: 18px;">100 đã bán</p>
+                        </div>
+                        <div class="like"><i class="fa-solid fa-check"></i>
+                            <h3 style="margin-left: 6px;">Yêu thích</h3>
+                        </div>
+                        <div class="discount">
+                        <h4 class="percent-number">50%</h4>
+                        <h4 class="percent-text">GIẢM</h4>
+                    </div>
+                    </div></a>
+                    </div>
+                    <div class="miku1 col l-2">
+                        <a style="text-decoration: none;" href="">
+                            <div>
+                                   
+                                <img class="img-product" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTh05lYhcFgYKeSTAx7wG1IVyRx-rr9DNn3_Q&usqp=CAU" alt="Miku">
+                                <div class="Buy">
+                                    <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                    <span class="view">Xem nhanh</span>
+                                </div>
+                            </div>
+                            <div class="product-info">
+                            <p class="name-product">Figure Miku bác sĩ</p>
+                            <div class="money">
+                            <p  class="origin-money">10.000.000đ</p>
+                            <p class="discount-money">5.000.000đ</p>
+                        </div>
+                        <div class="emoji">
+                            <i style="color: #333;" class="heart fa-solid fa-heart"></i>
+                            <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                                <i class="fa-regular fa-star"></i>
+                            </div>
+                            <p style="font-size: 18px;">100 đã bán</p>
+                            </div>
+                            <div class="like"><i class="fa-solid fa-check"></i>
+                                <h3 style="margin-left: 6px;">Yêu thích</h3>
+                            </div>
+                            <div class="discount">
+                            <h4 class="percent-number">50%</h4>
+                            <h4 class="percent-text">GIẢM</h4>
+                        </div>
+                        </div></a>
+                        </div>
+                        <div class="miku1 col l-2">
+                            <a style="text-decoration: none;" href="">
+                                <div>
+                                   
+                                    <img class="img-product" src="https://goodsmileshop.com/medias/sys_master/images/images/h80/h5e/9380421009438.jpg" alt="Miku">
+                                    <div class="Buy">
+                                        <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                        <span class="view">Xem nhanh</span>
+                                    </div>
+                                </div>
+                                <div class="product-info">
+                                <p class="name-product">Figure Miku đời thường</p>
+                                <div class="money">
+                                <p  class="origin-money">10.000.000đ</p>
+                                <p class="discount-money">5.000.000đ</p>
+                            </div>
+                            <div class="emoji">
+                                <i class="heart fa-solid fa-heart"></i>
+                                <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                    <i class="fa-regular fa-star"></i>
+                                </div>
+                                <p style="font-size: 18px;">100 đã bán</p>
+                                </div>
+                                <div class="like"><i class="fa-solid fa-check"></i>
+                                    <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                </div>
+                                <div class="discount">
+                                <h4 class="percent-number">50%</h4>
+                                <h4 class="percent-text">GIẢM</h4>
+                            </div>
+                            </div></a>
+                            </div>
+                            <div class="miku1 col l-2">
+                                <a style="text-decoration: none;" href="">
+                                    <div>
+                                   
+                                        <img class="img-product" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+                                        <div class="Buy">
+                                            <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                            <span class="view">Xem nhanh</span>
+                                        </div>
+                                    </div>
+                                    <div class="product-info">
+                                    <p class="name-product">Figure Miku váy cưới 2</p>
+                                    <div class="money">
+                                    <p  class="origin-money">10.000.000đ</p>
+                                    <p class="discount-money">5.000.000đ</p>
+                                </div>
+                                <div class="emoji">
+                                    <i class="heart fa-solid fa-heart"></i>
+                                    <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                        <i class="fa-regular fa-star"></i>
+                                    </div>
+                                    <p style="font-size: 18px;">100 đã bán</p>
+                                    </div>
+                                    <div class="like"><i class="fa-solid fa-check"></i>
+                                        <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                    </div>
+                                    <div class="discount">
+                                    <h4 class="percent-number">50%</h4>
+                                    <h4 class="percent-text">GIẢM</h4>
+                                </div>
+                                </div></a>
+                                </div>
+                                <div class="miku1 col l-2">
+                                    <a style="text-decoration: none;" href="">
+                                        <div>
+                                   
+                                            <img class="img-product" src="data:image/jpeg;base64,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" alt="Miku">
+                                            <div class="Buy">
+                                                <span style="margin-left: 17px;" class="add-cart">Thêm vào giỏ</span>
+                                                <span class="view">Xem nhanh</span>
+                                            </div>
+                                        </div>
+                                        <div class="product-info">
+                                        <p class="name-product">Figure Miku học sinh 2</p>
+                                        <div class="money">
+                                        <p  class="origin-money">10.000.000đ</p>
+                                        <p class="discount-money">5.000.000đ</p>
+                                    </div>
+                                    <div class="emoji">
+                                        <i style="color: #333;" class="heart fa-solid fa-heart"></i>
+                                        <div class="evaluate"><i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                            <i class="fa-regular fa-star"></i>
+                                        </div>
+                                        <p style="font-size: 18px;">100 đã bán</p>
+                                        </div>
+                                        <div class="like"><i class="fa-solid fa-check"></i>
+                                            <h3 style="margin-left: 6px;">Yêu thích</h3>
+                                        </div>
+                                        <div class="discount">
+                                        <h4 class="percent-number">50%</h4>
+                                        <h4 class="percent-text">GIẢM</h4>
+                                    </div>
+                                    </div></a>
+                                    </div>
+                                    <div class="col l-1 chevron-right"><i class="fa-solid fa-chevron-right"></i></div>
+            </div>
+
+</div>
+        
+<div class="phone">
+    <div class="phone1"><h4>0382.562.504</h4></div>
+    <div class="mikuphone">
+   <img  height="40px" width="40px" src="https://th.bing.com/th/id/OIP.YvLWRixY-A8oISC8ipuMKQAAAA?w=166&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7" alt="miku">
+</div>
+
+
+
+    </div>
+    <div class="Cart">
+    <div class="cart">
+        <div class="Product-bought">4</div>
+        <i class="icon-cart fa-solid fa-cart-shopping"></i>
+        <div class="Product-in-cart">
+
+            <h3 class="new" >Sản phẩm mới thêm</h3>
+                <div class="Product-in-cart1">
+                <img class="anh" width="35" height="55" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+            
+            <div class="sanpham">
+             
+                <span> Figure Miku thánh nữ</span>
+                <span class="tien"> 5.000.000đ</span>
+               
+            </div>
+        </div>
+            <div class="Product-in-cart1">
+                <img class="anh" width="35" height="55" src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRVwZ5D8daqpLNhlkZ61kdzPo5ujc9TikWBoA&usqp=CAU" alt="Miku">
+            
+            <div class="sanpham">
+                <span>Figure Miku đồ bơi</span> 
+                <span class="tien"> 5.000.000đ</span>
+                
+            </div>
+            
+        </div>
+        <div class="Product-in-cart1">
+            <img class="anh" width="35" height="55" src="https://cdn.shopify.com/s/files/1/0008/7851/0137/products/s-l1600_26_36147a70-094e-45ed-a8c2-413cb4ae3494_700x700.jpg?v=1659485245" alt="Miku">
+        
+        <div class="sanpham">
+            <span> Figure Miku devil</span>
+            <span class="tien"> 5.000.000đ</span>
+           
+        </div>
+        
+    </div>
+            
+    <div class="Product-in-cart1">
+    <img class="anh" width="35" height="55" src="https://goodsmileshop.com/medias/sys_master/images/images/h80/h5e/9380421009438.jpg" alt="Miku">
+
+<div class="sanpham">
+ 
+    <span> Figure Miku đời thường</span>
+    <span class="tien"> 5.000.000đ</span>
+   
+</div>
+</div>
+<div class="view-all"><div class="Xem">Xem giỏ hàng</div></div>
+
+    </div>
+    </div>
+    
+</div>
+<div class="commment">
+    <div class="tab">
+        <h1>Bình luận</h1>
+        <ul style="z-index: 10000;" id="list-comment"></ul>
+      </div>      
+    <div style="width: 100%;">
+        <input class="binhluan" name="cmt" type="text" placeholder="Nhập bình luận của bạn">
+        <button id="ok" class="OK">OK</button>
+    </div>
+</div>
+<div class="white"></div>
+<div class="anh-png"><img style=" width: 1519px;" src="anh.png" alt="background-footer"></div>
+<div class="sakura">
+    <div class="container">
+        <div class="content">
+            <h2>NHẬN THÔNG TIN MỚI NHẤT TỪ MIKUHSHOP</h2>
+            <p style="font-size: 25px;">Sản phẩm tốt sẽ đến tay của bạn</p>
+        </div>
+    </div>
+</div>
+
+   <div style="display: grid;" class="grid wide footer">
+            
+    <div class="row footer1">
+
+        <div style="margin-left: 10px;" class="about-us col l-2">
+            <div class="container">
+                <h4 class="title1">VỀ CHÚNG TÔI</h4>
+                <ul>
+                    <li>Giới thiệu</li>
+                    <li>Tin tức(Blog)</li>
+                    <li>Thẻ thành viên MikuH</li>
+                    <li>Kiểm tra điểm thành viên</li>
+                    <li>Ưu đãi thẻ Miku Club</li>
+                    <li>Điều khoản sử dụng</li>
+                    <li>Liên hệ</li>
+                </ul>
+            </div>
+        </div>
+        <div class="support-customer col l-2">
+            <div class="container">
+                <h4 class="title2">HỖ TRỢ KHÁCH HÀNG</h4>
+                <ul>
+                    <li>Chính sách đặt hàng và điều khoản hợp đồng</li>
+                    <li>Phương thức vận chuyển</li>
+                    <li>Chính sách bảo mật</li>
+                    <li>Chính sách đổi trả</li>
+                    <li>Chính sách trả góp</li>
+                    <li>Các câu hỏi thường gặp</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-left: 10px;" class="Contact-Info col l-6">
+            <div class="container">
+                <h4 class="title3">THÔNG TIN LIÊN HỆ</h4>
+                <ul>
+                    <li>Địa chỉ trụ sở chính: Ngọc Trì, Trạm Lộ, Thuận Thành, Bắc Ninh</li>
+                    <li>Hotline: 0382.562.504</li>
+                    <li>Địa chỉ tên miền: www.MikuHshop.com</li>
+                    <li>© 2023 - Bản quyền của Công ty TNHH Miku Việt Nam</li>
+                    <li>Giấy chứng nhận đăng ký doanh nghiệp số 0311241512 do UBND Tỉnh Bắc Ninh cấp lần đầu tiên ngày 04/03/2004</li>
+                </ul>
+            </div>
+        </div>
+        <div style="margin-left: 30px;" class="cer-app">
+            <div class="certificate">
+                <h4 class="title4">CHỨNG NHẬN</h4>
+                <img style="cursor: pointer;" data-src="//theme.hstatic.net/1000126467/1000607275/14/bct.png?v=24318" src="//theme.hstatic.net/1000126467/1000607275/14/bct.png?v=24318">
+            </div>
+            <div class="application">
+                <h4 class="title5">ỨNG DỤNG</h4>
+                <div><img style="cursor: pointer;"src="//file.hstatic.net/1000126467/file/get_google_play.png">
+                <p>
+                    <a href="https://apps.apple.com/us/app/aeoneshop/id1481331323" target="_blank"><img style="cursor: pointer;" src="//file.hstatic.net/1000126467/file/get_app_store.png"></a>
+                </p>
+            </div>
+            </div>
+        </div>
+    </div>
+    <div class="row footer2">
+
+        <div style="display: flex;" class="pay">
+                <h4>Phương thức thanh toán</h4>
+                <div class="pay1">
+                    <img src="//theme.hstatic.net/1000126467/1000607275/14/hn_footer_pay.png?v=24318" alt="Phương thức thanh toán">
+                </div>
+
+        </div>
+    </div>
+
+            </div>
+            <script src="./main.js"></script>
+                              <script>
+                                Users({
+                                    form: '#form-1',
+                                    formGroupSelector: '.form-group',
+                                    rules:
+                                    [
+                                        Users.isRequired('#fullname'),
+                                        Users.isEmail('#email'),
+                                        Users.isPassword('#password', 6),
+                                        Users.isConfirmPassword('#password_confirmation', function()
+                                        {
+                                          return document.querySelector('#password ').value;
+                                        }),
+                                ]
+                        
+                        
+                                });
+                              </script>
+    </body>
+</html>
